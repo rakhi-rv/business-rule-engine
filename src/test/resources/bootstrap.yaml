@@ -1,0 +1,6 @@
+embedded:
+  postgresql:
+    enabled: true
+    dockerImage: postgres:latest
+    user: businessruleuser
+    password: businessrulepassword
