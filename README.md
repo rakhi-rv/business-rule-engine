@@ -5,7 +5,14 @@
 - Further this needs to be extended to perform the actions based on that rules.
 
 # Installation
-This service requires Docker and docker-compose to be installed on your system. To start the database use :
+This service requires Docker and docker-compose to be installed on your system. 
+
+To build the project
+```
+mvn clean package
+```
+
+To start the database locally use :
 
 ```
 docker-compose up
