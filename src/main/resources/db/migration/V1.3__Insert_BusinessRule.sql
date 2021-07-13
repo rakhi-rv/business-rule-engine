@@ -4,4 +4,5 @@ INSERT INTO business_rule(product_type, rule) VALUES('book', 'create a duplicate
 INSERT INTO business_rule(product_type, rule) VALUES('membership', 'email owner for activation/upgrade');
 INSERT INTO business_rule(product_type, rule) VALUES('activate_membership', 'activate membership');
 INSERT INTO business_rule(product_type, rule) VALUES('upgrade_membership', 'upgrade membership');
-INSERT INTO business_rule(product_type, rule) VALUES('video', 'Add First Aid video to packing slip');
+INSERT INTO business_rule(product_type, rule) VALUES('video', 'add video to packing slip');
+INSERT INTO business_rule(product_type, rule) VALUES('learning_to_ski_video', 'Add First Aid video for free');
